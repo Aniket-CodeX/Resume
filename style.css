@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    padding: 40px;
+    background: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+.resume {
+    width: 850px;
+    margin: 10px 15%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(98, 98, 98, 0.218);
+    position: relative;
+    height: 760px;
+}
+
+.sidebar {
+    width: 220px;
+    padding: 35px 30px;
+    background: #1f2937;
+    color: white;
+    border-radius: 12px 0 0 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main {
+    width: 540px;
+    padding: 30px 20px;
+    position: absolute;
+    top: 0;
+    left: 280px;
+}
+
+.profile {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 18px;
+    font-size: 26px;
+}
+
+.profile p {
+    margin-top: 6px;
+    color: #cbd5e1;
+}
+
+section {
+    margin-top: 35px;
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+    color: #d1d5db;
+}
+
+.skills {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #111827;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+main p {
+    margin-top: 10px;
+}
+
+span {
+    font-size: 14px;
+    color: #6b7280;
+}
